@@ -1,9 +1,11 @@
 import React from 'react';
 
 export class ProjectDisplay extends React.Component {
+    
+
     render(){
         return(
-            <div className="w3-card card" >
+            <div onClick={() => window.open(this.props.url, "_blank")} className="w3-card card card-button" >
                 <div className="card-left">
                     <img className="project-picture" src={this.props.img} alt={this.props.desc} />
                 </div>

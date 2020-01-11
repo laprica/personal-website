@@ -1,40 +1,61 @@
 {
     "Projects": [{
             "title": "Street Pong",
-            "description": "Hardware and software to play pong while waiting to cross the street",
-            "picture": "/assets/streetPongSmall.png"
+            "description": "Hardware and software to play pong while waiting to cross the street.",
+            "picture": "/assets/streetPongSmall.png",
+            "url": "https://lpancoast.weebly.com/streetpong.html"
         },
         {
             "title": "Origami Zoo",
             "description": "Life size animal origami that can speak back to you!",
-            "picture": "/assets/origamiZooSmall.png"
+            "picture": "/assets/origamiZooSmall.png",
+            "url": "https://lpancoast.weebly.com/origami-zoo.html"
+
         }, {
-            "title": "test test",
-            "description": "Hardware and software to play pong while waiting to cross the street",
-            "picture": "/assets/streetPongSmall.png"
+            "title": "Clapsr",
+            "description": "Foldable LED screen using custom PCBs and W2812 LEDs in a week!",
+            "picture": "/assets/clapsrSmall.png",
+            "url": "https://lpancoast.weebly.com/clapsr.html"
         },
         {
-            "title": "Lorem ipsum",
-            "description": "Life size animal origami that can speak back to you!",
-            "picture": "/assets/origamiZooSmall.png"
+            "title": "Theremin",
+            "description": "Magical instrument that can be played with no physical contact.",
+            "picture": "/assets/thereminSmall.png",
+            "url": "https://lpancoast.weebly.com/theremin.html"
         }, {
-            "title": "test tests as",
-            "description": "Hardware and software to play pong while waiting to cross the street",
-            "picture": "/assets/streetPongSmall.png"
+            "title": "Coursereqr",
+            "description": "Visualize the courses required to graduate and take certain capstones.",
+            "picture": "/assets/courseReqrSmall.png",
+            "url": "https://lpancoast.weebly.com/coursereqr.html"
         },
         {
-            "title": "Lorem ipsum",
-            "description": "Life size animal origami that can speak back to you!",
-            "picture": "/assets/origamiZooSmall.png"
+            "title": "What is sound?",
+            "description": "Explain sound to a 5 year old! Submitted as part of the Alan Alda Flame Challenge.",
+            "picture": "/assets/whatIsSoundSmall.png",
+            "url": "https://lpancoast.weebly.com/what-is-sound.html"
         }, {
-            "title": "erawer",
-            "description": "Hardware and software to play pong while waiting to cross the street",
-            "picture": "/assets/streetPongSmall.png"
+            "title": "Folding into a new dimension",
+            "description": "Explore the different applications of origami, from art to tech.",
+            "picture": "/assets/foldingIntoANewDimensionSmall.png",
+            "url": "https://lpancoast.weebly.com/folding-into-a-new-dimension.html"
         },
         {
-            "title": "Lorem ipsum",
-            "description": "Life size animal origami that can speak back to you!",
-            "picture": "/assets/origamiZooSmall.png"
+            "title": "Salus",
+            "description": "Make a cat-urine-dipstick-reading device for early detection of cat sickness.",
+            "picture": "/assets/salusSmall.png",
+            "url": "https://lpancoast.weebly.com/salus.html"
+        },
+        {
+            "title": "Computing in VR",
+            "description": "VR experience to encourage students to pursue a career in computer science.",
+            "picture": "/assets/computingInVrSmall.png",
+            "url": "https://lpancoast.weebly.com/computing-in-vr.html"
+        },
+        {
+            "title": "Research Publications",
+            "description": "STILL IN PROGRESS",
+            "picture": "/assets/profilePic.jpg",
+            "url": "https://www.linkedin.com/in/lpancoast/"
         }
     ]
 }
