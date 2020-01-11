@@ -17,7 +17,7 @@ export class ProjectListDisplay extends React.Component {
                     }
                 </div>                
             </div>
-        // </div>
+         </div>
     );
   }
 }

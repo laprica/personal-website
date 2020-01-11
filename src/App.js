@@ -15,16 +15,18 @@ function App() {
         </div> */}
       </div>
       <h1 className="mainTitle">Leanna Pancoast</h1>
-      <div className="w3-container nav-bar">
-          <div className="w3-container nav-item" id="about">
-              <button className="w3-button w3-yellow nav-button">About</button>
-          </div>        
-          <div className="w3-container nav-item" id="contact">
-              <button className="w3-button w3-yellow nav-button">Contact</button>
-          </div>
-      </div>
-      
+      <div className="nav-bar-container">
+        <div className="w3-container nav-bar">
+            <div className="w3-container nav-item" id="about">
+                <button className="w3-button w3-yellow nav-button">About</button>
+            </div>        
+            <div className="w3-container nav-item" id="contact">
+                <button className="w3-button w3-yellow nav-button">Contact</button>
+            </div>
+        </div>
+      </div>      
       <ProjectListDisplay />
+      <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik - www.freepik.com</a>
     </div>
   );
 }
