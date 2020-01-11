@@ -99,6 +99,10 @@ body {
     background-repeat: repeat;
 }
 
+.card-about {
+    background-image: url('/assets/nasty_fabric.png');
+}
+
 .card-left {
     width: 40%;
     float: left;

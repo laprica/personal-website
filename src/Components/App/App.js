@@ -3,6 +3,7 @@ import './App.css';
 import '../../stylesheets/mystyles.css';
 import {ProjectListDisplay} from '../ProjectListDisplay';
 import {BigCardDisplay} from '../BigCardDisplay';
+import {About} from '../About';
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
       <div className="nav-bar-container">
         <div className="w3-container nav-bar">
             <div className="w3-container nav-item" id="about">
-                <button className="w3-button w3-yellow nav-button">About</button>
+            <a href='#about-card' className='w3-button nav-button'>About</a>
             </div>        
             <div className="w3-container nav-item" id="contact" >
                 <a href='https://www.linkedin.com/in/lpancoast/' className='w3-button nav-button'>Contact</a>
@@ -31,7 +32,8 @@ function App() {
       <BigCardDisplay>
         <ProjectListDisplay />
       </BigCardDisplay>
-      
+
+      <About />
       <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik - www.freepik.com</a>
     </div>
   );
