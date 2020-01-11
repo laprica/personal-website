@@ -1,3 +1,38 @@
+@font-face {
+    font-family: 'data_control';
+    src: url('/assets/data-latin-webfont.woff2') format('woff2'), url('/assets/data-latin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'atomic_age';
+    src: url('/assets/atomicage-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+body {
+    /* background-image: url('/assets/repeated-square.png'); */
+    background-image: url('/assets/nasty_fabric.png');
+    /* background-image: url('/assets/sandpaper.png'); */
+    background-repeat: repeat;
+}
+
+.profile-pic {
+    width: 25%;
+    transform: translateX(150%);
+    padding: 10px;
+}
+
+
 /* Float four columns side by side */
 
 .column {
@@ -28,16 +63,26 @@
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     /* this adds the 'card' effect */
-    padding: 16px;
+    padding: 8px;
     text-align: center;
     background-color: #f1f1f1;
     margin: 5px 0;
     height: 200px;
+    background-image: url('/assets/nasty_fabric.png');
+    /* background-image: url('/assets/3305340.jpg'); */
+    background-repeat: repeat;
+    /* <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Harryarts - www.freepik.com</a> */
 }
 
 .big-card {
     padding: 8px;
-    margin: 16px;
+    margin: 32px;
+    top: 0;
+    background-image: url('/assets/3305340.jpg');
+    /* <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik - www.freepik.com</a> */
+    /* background-image: url('/assets/13416.jpg'); */
+    /* background-size: contain; */
+    background-repeat: repeat;
 }
 
 .card-left {
@@ -52,19 +97,26 @@
     width: 60%;
     padding: 5px;
     float: left;
+    font-family: 'Bree Serif', serif;
+}
+
+h3 {
+    font-family: 'Permanent Marker', cursive;
 }
 
 .project-picture {
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    /* border: 1px solid #ddd;
+    object-fit: cover;
+    border: 4px solid #ddb;
     border-radius: 4px;
-    padding: 5px; */
+    padding: 5px;
 }
 
-.project-description {
+.project-desc {
     margin-left: 20px;
+    /* font-family: atomic_age; */
+    overflow: scroll;
 }
 
 .nav-bar {
@@ -75,7 +127,18 @@
     position: sticky;
     top: 0;
     z-index: 20;
-    background-color: azure;
+    /* background-color: azure; */
+    background-image: url('/assets/nasty_fabric.png');
+    background-repeat: repeat;
+}
+
+.nav-button {
+    border-radius: 15px;
+    background-image: url('/assets/sandpaper.png');
+    background-repeat: repeat;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .nav-item {
@@ -120,11 +183,10 @@
         width: 100%;
         transform: none;
     }
-    /* #about {
-        float: none;
-        margin-bottom: 8px;
+}
+
+@media screen and (max-width: 400px) {
+    .card-right {
+        font-size: 80%;
     }
-    #contact {
-        float: none;
-    } */
 }

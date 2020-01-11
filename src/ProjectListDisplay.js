@@ -6,7 +6,7 @@ export class ProjectListDisplay extends React.Component {
   render(){
       return (
         <div className="ProjectListDisplay">
-            <div className="w3-card big-card w3-animate-bottom">
+            <div className="w3-card w3-animate-bottom big-card">
                 <div className="row">
                     {
                         data.Projects.map((project, i) => {
@@ -17,7 +17,7 @@ export class ProjectListDisplay extends React.Component {
                     }
                 </div>                
             </div>
-        </div>
+        // </div>
     );
   }
 }
