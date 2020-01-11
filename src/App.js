@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import './stylesheets/mystyles.css';
+import {ProjectListDisplay} from './ProjectListDisplay.js';
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
             <button class="w3-button w3-yellow">Contact</button>
         </div>
       </div>
+      <ProjectListDisplay />
     </div>
   );
 }
