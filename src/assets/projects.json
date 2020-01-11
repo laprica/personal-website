@@ -1,0 +1,40 @@
+{
+    "Projects": [{
+            "title": "Street Pong",
+            "description": "Hardware and software to play pong while waiting to cross the street",
+            "picture": "/assets/streetPongSmall.png"
+        },
+        {
+            "title": "Origami Zoo",
+            "description": "Life size animal origami that can speak back to you!",
+            "picture": "/assets/origamiZooSmall.png"
+        }, {
+            "title": "test test",
+            "description": "Hardware and software to play pong while waiting to cross the street",
+            "picture": "/assets/streetPongSmall.png"
+        },
+        {
+            "title": "Lorem ipsum",
+            "description": "Life size animal origami that can speak back to you!",
+            "picture": "/assets/origamiZooSmall.png"
+        }, {
+            "title": "test tests as",
+            "description": "Hardware and software to play pong while waiting to cross the street",
+            "picture": "/assets/streetPongSmall.png"
+        },
+        {
+            "title": "Lorem ipsum",
+            "description": "Life size animal origami that can speak back to you!",
+            "picture": "/assets/origamiZooSmall.png"
+        }, {
+            "title": "erawer",
+            "description": "Hardware and software to play pong while waiting to cross the street",
+            "picture": "/assets/streetPongSmall.png"
+        },
+        {
+            "title": "Lorem ipsum",
+            "description": "Life size animal origami that can speak back to you!",
+            "picture": "/assets/origamiZooSmall.png"
+        }
+    ]
+}
