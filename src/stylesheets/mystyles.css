@@ -68,33 +68,26 @@
 }
 
 .nav-bar {
-    width: 100%;
+    width: 50%;
+    transform: translateX(50%);
     position: -webkit-sticky;
     /* Safari */
     position: sticky;
     top: 0;
     z-index: 20;
     background-color: azure;
-    padding: 15px;
 }
 
-.nav-item-name {
-    /* float: left;
-    font-size: 5vw; */
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 5vw;
-    transform: translate(-50%, -50%);
-    margin: auto;
+.nav-item {
+    float: left;
+    margin: 0;
 }
 
-.nav-item-about {
+#about {
     float: left;
 }
 
-.nav-item-contact {
+#contact {
     float: right;
 }
 
@@ -123,4 +116,15 @@
         display: block;
         margin-bottom: 20px;
     }
+    .nav-bar {
+        width: 100%;
+        transform: none;
+    }
+    /* #about {
+        float: none;
+        margin-bottom: 8px;
+    }
+    #contact {
+        float: none;
+    } */
 }
