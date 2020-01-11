@@ -1,12 +1,3 @@
-div.sticky {
-    position: -webkit-sticky;
-    /* Safari */
-    position: sticky;
-    top: 0;
-    padding: 5px;
-}
-
-
 /* Float four columns side by side */
 
 .column {
@@ -74,6 +65,37 @@ div.sticky {
 
 .project-description {
     margin-left: 20px;
+}
+
+.nav-bar {
+    width: 100%;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background-color: azure;
+    padding: 15px;
+}
+
+.nav-item-name {
+    /* float: left;
+    font-size: 5vw; */
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 5vw;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+
+.nav-item-about {
+    float: left;
+}
+
+.nav-item-contact {
+    float: right;
 }
 
 
