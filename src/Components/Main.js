@@ -3,7 +3,16 @@ import '../stylesheets/mystyles.css';
 import {ProjectListDisplay} from './ProjectListDisplay';
 import {BigCardDisplay} from './BigCardDisplay';
 import {About} from './About';
-import{StreetPong} from './Projects/StreetPong'
+import {StreetPong} from './Projects/StreetPong';
+import {Clapsr} from './Projects/Clapsr';
+import {ComputingVR} from './Projects/ComputingVR';
+import {CourseReqr} from './Projects/CourseReqr';
+import {FoldingDimension} from './Projects/FoldingDimension';
+import {OrigamiZoo} from './Projects/OrigamiZoo';
+import {ResearchPublications} from './Projects/ResearchPublications';
+import {Salus} from './Projects/Salus';
+import {Theremin} from './Projects/Theremin';
+import {WhatIsSound} from './Projects/WhatIsSound';
 
 
 export class Main extends React.Component {
@@ -46,7 +55,17 @@ export class Main extends React.Component {
         switch(this.state.displayItem){
             case 'About': toDisplay = <About />; break;
             case 'Projects': toDisplay = <ProjectListDisplay cb={(e)=>{this.handle_other_project_click(e)}} />; break;
-            case 'Street Pong': toDisplay = <StreetPong />
+            case 'Street Pong': toDisplay = <StreetPong />; break;
+            case 'Clapsr': toDisplay = <Clapsr />; break;
+            case 'Computing in VR': toDisplay = <ComputingVR />; break;
+            case 'Coursereqr': toDisplay = <CourseReqr />; break;
+            case 'Folding into a new dimension': toDisplay = <FoldingDimension />; break;
+            case 'Origami Zoo': toDisplay= <OrigamiZoo />; break;
+            case 'Research Publications': toDisplay = <ResearchPublications />; break;
+            case 'Salus': toDisplay = <Salus />; break;
+            case 'Theremin': toDisplay = <Theremin />; break;
+            case 'What is sound?': toDisplay = <WhatIsSound />; break;
+
         }
     //   if(this.state.displayItem){
     //       this.state.toDisplay = <About />;
