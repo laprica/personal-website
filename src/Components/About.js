@@ -5,7 +5,7 @@ import data from "../assets/projects.json";
 export class About extends React.Component {
   render(){
       return (
-        <div className="w3-card w3-animate-bottom big-card card-about" id="about-card">
+        <div className="w3-card w3-animate-bottom card-about" id="about-card">
           <h1>About Leanna</h1>Leanna is currently looking for a new job opportunity.
 
         Her previous work experience includes working at IBM Research in Yorktown Heights, NY advancing healthcare devices. Papers and patent pending.

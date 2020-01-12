@@ -48,6 +48,23 @@ body {
     margin: 0 -5px;
 }
 
+@keyframes animatebottom {
+    from {
+        bottom: -50px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+.big-card div {
+    transition-duration: 0.4s;
+    position: relative;
+    animation: animatebottom 0.4s
+}
+
 
 /* Clear floats after the columns */
 
@@ -97,6 +114,9 @@ body {
     /* background-image: url('/assets/13416.jpg'); */
     /* background-size: contain; */
     background-repeat: repeat;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
 }
 
 .card-about {
@@ -134,7 +154,7 @@ h3 {
 .project-desc {
     margin-left: 20px;
     /* font-family: atomic_age; */
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 .nav-bar-container {
