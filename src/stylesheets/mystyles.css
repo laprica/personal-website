@@ -93,6 +93,14 @@ body {
 
 .full-project-card {
     overflow: auto;
+    padding: 16px;
+    background-image: url('/assets/nasty_fabric.png');
+    font-family: 'Bree Serif', serif;
+}
+
+.full-project-card h2 {
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
 }
 
 .card-button {
@@ -221,6 +229,16 @@ h3 {
 .project-title {
     height: 25%;
     overflow: hidden;
+}
+
+.card-video {
+    width: 80%;
+    height: 100%;
+    min-height: 300px;
+}
+
+.full-project-card img {
+    max-width: 80%;
 }
 
 
