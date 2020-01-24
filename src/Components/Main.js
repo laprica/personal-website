@@ -1,5 +1,7 @@
 import React from 'react';
 import '../stylesheets/mystyles.css';
+import { Switch, Route, Link, BrowserRouter as Router, Redirect } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import {ProjectListDisplay} from './ProjectListDisplay';
 import {BigCardDisplay} from './BigCardDisplay';
 import {About} from './About';
@@ -13,6 +15,9 @@ import {ResearchPublications} from './Projects/ResearchPublications';
 import {Salus} from './Projects/Salus';
 import {Theremin} from './Projects/Theremin';
 import {WhatIsSound} from './Projects/WhatIsSound';
+import {Website} from './Projects/Website';
+import {MEMS} from './Projects/MEMS';
+import {IBM} from './Projects/IBM';
 
 
 export class Main extends React.Component {
@@ -32,14 +37,16 @@ export class Main extends React.Component {
             this.setState({
                 displayItem: "About",
                 leftButtonName: "Projects"
-            })
+            });
         }
         if(this.state.leftButtonName == "Projects"){
             this.setState({
                 displayItem: "Projects",
                 leftButtonName: "About"
-            })
+            });
         }
+        // let history = useHistory();
+        //     history.push("/");
     }
 
     handle_other_project_click = (itemName) => {
@@ -55,7 +62,9 @@ export class Main extends React.Component {
         switch(this.state.displayItem){
             case 'About': toDisplay = <About />; break;
             case 'Projects': toDisplay = <ProjectListDisplay cb={(e)=>{this.handle_other_project_click(e)}} />; break;
-            case 'Street Pong': toDisplay = <StreetPong />; break;
+            // case 'Street Pong': toDisplay = <Route exact path="/streetpong" component={StreetPong} />; break;
+            case 'Street Pong': toDisplay = <StreetPong/>; break;
+            // case 'Clapsr': toDisplay = <Route exact path="/clapsr" component={Clapsr} />; break;
             case 'Clapsr': toDisplay = <Clapsr />; break;
             case 'Computing in VR': toDisplay = <ComputingVR />; break;
             case 'Coursereqr': toDisplay = <CourseReqr />; break;
@@ -65,16 +74,11 @@ export class Main extends React.Component {
             case 'Salus': toDisplay = <Salus />; break;
             case 'Theremin': toDisplay = <Theremin />; break;
             case 'What is sound?': toDisplay = <WhatIsSound />; break;
+            case 'This Website': toDisplay = <Website />; break;
+            case 'MEMS Fabrication': toDisplay = <MEMS />; break;
+            case 'IBM Work': toDisplay = <IBM />; break;
 
         }
-    //   if(this.state.displayItem){
-    //       this.state.toDisplay = <About />;
-    //       this.state.leftButtonName = "Projects";
-    //   }
-    //   else{
-    //       this.state.toDisplay = <ProjectListDisplay />
-    //       this.state.leftButtonName = "About";
-    //   }
       return (
         <div className="App">
         <div className="w3-display-container profile-pic" style={{}}>
@@ -97,13 +101,21 @@ export class Main extends React.Component {
           </div>
         </div>
         <BigCardDisplay>
+            <Router>
             {toDisplay}
+                {/* <Route path="/">{toDisplay}</Route> */}
+                <div>
+                    {/* <Switch>
+                        <Route path="/clapsr">
+                            <Clapsr/>
+                        </Route>
+                        <Route>
+                            <ProjectListDisplay cb={(e)=>{this.handle_other_project_click(e)}} />;
+                        </Route>
+                    </Switch> */}
+                </div>
+            </Router>
         </BigCardDisplay>
-        {/* <BigCardDisplay>
-          <ProjectListDisplay />
-        </BigCardDisplay>
-        
-        <About /> */}
         <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik - www.freepik.com</a>
       </div>
     );

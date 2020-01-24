@@ -1,5 +1,11 @@
 {
     "Projects": [{
+            "title": "This Website",
+            "description": "It exists, written with React.",
+            "picture": "/assets/3305340.jpg",
+            "url": ""
+        },
+        {
             "title": "Street Pong",
             "description": "Hardware and software to play pong while waiting to cross the street.",
             "picture": "/assets/streetPongSmall.png",
@@ -35,7 +41,7 @@
             "url": "https://lpancoast.weebly.com/what-is-sound.html"
         }, {
             "title": "Folding into a new dimension",
-            "description": "Explore the different applications of origami, from art to tech.",
+            "description": "Explore different applications of origami, from art to tech.",
             "picture": "/assets/foldingIntoANewDimensionSmall.png",
             "url": "https://lpancoast.weebly.com/folding-into-a-new-dimension.html"
         },
@@ -53,9 +59,21 @@
         },
         {
             "title": "Research Publications",
-            "description": "STILL IN PROGRESS",
+            "description": "I did cool science-y things and then wrote about them.",
             "picture": "/assets/profilePic.jpg",
             "url": "https://www.linkedin.com/in/lpancoast/"
+        },
+        {
+            "title": "MEMS Fabrication",
+            "description": "I spent some time making micro sized devices in the cleanroom.",
+            "picture": "/assets/microfabrication-issues.jpg",
+            "url": ""
+        },
+        {
+            "title": "IBM Work",
+            "description": "I worked a year at IBM Research in Yorktown Heights. All opinions are my own.",
+            "picture": "/assets/ibm-pic.png",
+            "url": ""
         }
     ]
 }

@@ -16,7 +16,9 @@ export class Theremin extends React.Component {
 
             This links closely to the origami zoo project that I worked on, though by that time someone else was smart enough to write a Capacitive sense library for the Arduino community to use.</p>
           
-            <iframe width="80%" height="315" src="https://www.youtube.com/embed/Wqgt1ztL9Oc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div className="video-container">
+              <iframe className="video" src="https://www.youtube.com/embed/Wqgt1ztL9Oc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 
             <p>Here is our work in progress with an Arduino based theremin based off <a href="http://interface.khm.de/index.php/lab/interfaces-advanced/theremin-as-a-capacitive-sensing-device/">this work.</a></p>
 

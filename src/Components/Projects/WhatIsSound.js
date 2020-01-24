@@ -9,7 +9,9 @@ export class WhatIsSound extends React.Component {
 
           <h2>Background</h2>
           <p>​The Alan Alda Center for Communicating Science at Stony Brook University poses a different question each year for scientists around the world to explain to 11-year-olds. The 2016 question for the Flame Challenge was "What is sound?" I found out about this contest about a month before the deadline, conveniently during winter break. I taught myself Adobe After Effects and made the video below.</p>
-          <iframe className="card-video" src="https://www.youtube.com/embed/kK7dW7eVAHE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div className="video-container">
+            <iframe className="video" src="https://www.youtube.com/embed/kK7dW7eVAHE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
     );
   }
