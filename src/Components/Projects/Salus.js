@@ -11,7 +11,7 @@ export class Salus extends React.Component {
           <p>The protein count in cat urine can be a symptom of serious kidney disease. Dipsticks can be used to determine how much protein is in cat urine. This dipstick reader will be able to be put inside of a litter box to be able to alert the owner of a cat's sickness before other symptoms can be seen.</p>
 
           <div className="video-container">
-            <iframe className="video" src="https://www.youtube.com/embed/_3n-KGlGHTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe className="video" src="https://www.youtube.com/embed/_3n-KGlGHTw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
         </div>
     );
