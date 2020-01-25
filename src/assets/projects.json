@@ -1,7 +1,7 @@
 {
     "Projects": [{
             "title": "This Website",
-            "description": "It exists, written with React.",
+            "description": "A showcase of work I have done",
             "picture": "/assets/3305340.jpg",
             "url": "/website"
         },
@@ -59,7 +59,7 @@
         },
         {
             "title": "Research Publications",
-            "description": "I did cool science-y things and then wrote about them.",
+            "description": "I did some science and then wrote about it.",
             "picture": "/assets/profilePic.jpg",
             "url": "/researchpublications"
         },

@@ -6,6 +6,14 @@ export class Website extends React.Component {
         <div className="w3-card w3-animate-bottom full-project-card" id="clapsr">
           <h1>This Website</h1>
           <p>Hey, I made this website from scratch using React. Still working on it, but it exists!</p>
+          <p>I mainly want to use this site as a way to easily show what projects I have worked on in the past to 
+            people who might be interested. I plan on continuing to update the pages with
+             more details, pictures, and videos to better explain the reasoning for the project, lessons learned,
+             and display the end result. I have this live now in this 'work in progress' state because I imagine this 
+             will continue to be updated, which means there will never be a 'final state' to be published. Thanks for your 
+             patience as I continue to work on it.
+          </p>
+          <p>Thanks for reading!</p>
           <p>Last updated 24 Jan 2020.</p>
           
           {/* <div className="w3-display-container">
