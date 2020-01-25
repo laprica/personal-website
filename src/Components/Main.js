@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/mystyles.css';
-import { Switch, Route, Link, BrowserRouter, Redirect } from 'react-router-dom';
+import { Switch, Route, NavLink, BrowserRouter, Redirect } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
 import {ProjectListDisplay} from './ProjectListDisplay';
 import {BigCardDisplay} from './BigCardDisplay';
@@ -30,7 +30,7 @@ export class Main extends React.Component {
         console.log("location is: " + window.location.pathname);
         if(window.location.pathname=='/' || window.location.pathname=="/projects"){
             this.state={
-                displayItem: <Redirect to="/projects" push />,
+                displayItem: <Redirect to="/" push />,
                 leftButtonName: "About"
             }
         }
@@ -42,8 +42,13 @@ export class Main extends React.Component {
         }
         
     }
-
     
+    handle_title_click = () => {
+        this.setState({
+            displayItem: <Redirect to="/" push />,
+            leftButtonName: "About"
+        })
+    }
 
     handle_about_click =  () => {
         if(this.state.leftButtonName == "About"){
@@ -109,7 +114,9 @@ export class Main extends React.Component {
                   <button className="w3-button w3-yellow">Contact</button>
               </div> */}
             </div>
-            <h1 className="mainTitle">Leanna Pancoast</h1>
+            <div className="main-title" onClick={()=>this.handle_title_click()}>
+                <h1>Leanna Pancoast</h1>
+            </div>
             <div className="nav-bar-container">
               <div className="w3-container nav-bar">
                   <div className="w3-container nav-item" id="left-button">
@@ -139,6 +146,9 @@ export class Main extends React.Component {
                         <Route path="/whatissound"> <WhatIsSound /> </Route>
                         <Route path="/about"> <About/> </Route>
                         <Route path="/projects">
+                            <ProjectListDisplay cb={(e)=>{this.handle_other_project_click(e)}} />;
+                        </Route>
+                        <Route path="/">
                             <ProjectListDisplay cb={(e)=>{this.handle_other_project_click(e)}} />;
                         </Route>
                         <Route><BrokenLink /> </Route>

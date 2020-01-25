@@ -269,6 +269,14 @@ h3 {
     overflow: hidden;
 }
 
+.main-title {
+    text-decoration: none;
+}
+
+.main-title:hover {
+    cursor: pointer;
+}
+
 .card-video {
     width: 80%;
     height: 100%;
