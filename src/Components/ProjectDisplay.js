@@ -9,7 +9,7 @@ export class ProjectDisplay extends React.Component {
 
     render(){
         return(
-            <div onClick={() => {this.sendDatax(this.props.title)}} className="w3-card card card-button" >
+            <div onClick={() => {this.sendDatax(this.props.url)}} className="w3-card card card-button" >
                 <div className="card-left">
                     <img className="project-picture" src={this.props.img} alt={this.props.desc} />
                 </div>

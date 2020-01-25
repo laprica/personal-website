@@ -3,77 +3,77 @@
             "title": "This Website",
             "description": "It exists, written with React.",
             "picture": "/assets/3305340.jpg",
-            "url": ""
+            "url": "/website"
         },
         {
             "title": "Street Pong",
             "description": "Hardware and software to play pong while waiting to cross the street.",
             "picture": "/assets/streetPongSmall.png",
-            "url": "https://lpancoast.weebly.com/streetpong.html"
+            "url": "/streetpong"
         },
         {
             "title": "Origami Zoo",
             "description": "Life size animal origami that can speak back to you!",
             "picture": "/assets/origamiZooSmall.png",
-            "url": "https://lpancoast.weebly.com/origami-zoo.html"
+            "url": "/origamizoo"
 
         }, {
             "title": "Clapsr",
             "description": "Foldable LED screen using custom PCBs and W2812 LEDs in a week!",
             "picture": "/assets/clapsrSmall.png",
-            "url": "https://lpancoast.weebly.com/clapsr.html"
+            "url": "/clapsr"
         },
         {
             "title": "Theremin",
             "description": "Magical instrument that can be played with no physical contact.",
             "picture": "/assets/thereminSmall.png",
-            "url": "https://lpancoast.weebly.com/theremin.html"
+            "url": "/theremin"
         }, {
             "title": "Coursereqr",
             "description": "Visualize the courses required to graduate and take certain capstones.",
             "picture": "/assets/courseReqrSmall.png",
-            "url": "https://lpancoast.weebly.com/coursereqr.html"
+            "url": "/coursereqr"
         },
         {
             "title": "What is sound?",
             "description": "Explain sound to a 5 year old! Submitted as part of the Alan Alda Flame Challenge.",
             "picture": "/assets/whatIsSoundSmall.png",
-            "url": "https://lpancoast.weebly.com/what-is-sound.html"
+            "url": "/whatissound"
         }, {
             "title": "Folding into a new dimension",
             "description": "Explore different applications of origami, from art to tech.",
             "picture": "/assets/foldingIntoANewDimensionSmall.png",
-            "url": "https://lpancoast.weebly.com/folding-into-a-new-dimension.html"
+            "url": "/foldingdimensions"
         },
         {
             "title": "Salus",
             "description": "Make a cat-urine-dipstick-reading device for early detection of cat sickness.",
             "picture": "/assets/salusSmall.png",
-            "url": "https://lpancoast.weebly.com/salus.html"
+            "url": "/salus"
         },
         {
             "title": "Computing in VR",
             "description": "VR experience to encourage students to pursue a career in computer science.",
             "picture": "/assets/computingInVrSmall.png",
-            "url": "https://lpancoast.weebly.com/computing-in-vr.html"
+            "url": "/computingvr"
         },
         {
             "title": "Research Publications",
             "description": "I did cool science-y things and then wrote about them.",
             "picture": "/assets/profilePic.jpg",
-            "url": "https://www.linkedin.com/in/lpancoast/"
+            "url": "/researchpublications"
         },
         {
             "title": "MEMS Fabrication",
             "description": "I spent some time making micro sized devices in the cleanroom.",
             "picture": "/assets/microfabrication-issues.jpg",
-            "url": ""
+            "url": "/MEMS"
         },
         {
             "title": "IBM Work",
             "description": "I worked a year at IBM Research in Yorktown Heights. All opinions are my own.",
             "picture": "/assets/ibm-pic.png",
-            "url": ""
+            "url": "/IBM"
         }
     ]
 }

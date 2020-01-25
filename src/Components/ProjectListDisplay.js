@@ -1,6 +1,7 @@
 import React from 'react';
 import {ProjectDisplay} from './ProjectDisplay.js'
 import data from "../assets/projects.json";
+import {withRouter} from 'react-router-dom';
 
 export class ProjectListDisplay extends React.Component {
 
