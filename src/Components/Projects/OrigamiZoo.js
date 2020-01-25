@@ -12,7 +12,7 @@ export class OrigamiZoo extends React.Component {
           <h2>Project</h2>
           <p>We got giant paper (9 ft photo backdrop paper!) and folded giant animals out of them. We put aluminum foil into the animals and used the Capacitive Sense library for Arduino to have the animals make noise when petted. </p>
           <div className="video-container">
-          <iframe className="video" src="https://www.youtube.com/embed/WJp2PrS7NgM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="video" src="https://www.youtube.com/embed/WJp2PrS7NgM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>          
           <img src="../../assets/origamiZooSmall.png" alt="Poster of two origami penguins for CMU Carnival 2015."></img>
           <p>Poster designed by Chris Perry.
@@ -20,7 +20,7 @@ export class OrigamiZoo extends React.Component {
           <img src="../../assets/origamiZooAnimals.jpg" alt="Finished large scale origami animals."></img>
           <p>Finished large scale origami animals</p>
           <div className="video-container">
-            <iframe className="video" src="https://www.youtube.com/embed/0U3elwxlHDI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className="video" src="https://www.youtube.com/embed/0U3elwxlHDI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
           
         </div>
