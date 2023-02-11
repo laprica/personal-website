@@ -14,7 +14,7 @@ export class Website extends React.Component {
              patience as I continue to work on it.
           </p>
           <p>Thanks for reading!</p>
-          <p>Last updated 24 Jan 2020.</p>
+          <p>Last updated 10 Feb 2023.</p>
           
           {/* <div className="w3-display-container">
             <div className="w3-card to-do-list">
