@@ -1,6 +1,4 @@
 import React from 'react';
-import {ProjectDisplay} from './ProjectDisplay.js'
-import data from "../assets/projects.json";
 
 export class About extends React.Component {
   render(){
@@ -8,7 +6,7 @@ export class About extends React.Component {
         <div className="w3-card w3-animate-bottom card-about" id="about-card">
           <h1>About Leanna</h1>
           <div className="card-left-about">
-            <img className="about-picture" src="../assets/profilePic.jpg" />
+            <img className="about-picture" src="../assets/profilePic.jpg" alt="Leanna in front of Ithaca Falls"/>
           </div>
           <div className="card-right-about">
           Leanna is currently looking for a new job opportunity.

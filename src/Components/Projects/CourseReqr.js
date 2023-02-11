@@ -15,7 +15,7 @@ export class CourseReqr extends React.Component {
           <h2>Project</h2>
           <p>The goal of this project is to create a visualization of what route of classes someone is able to take. When looking at courses to make a 4 year plan, it's really easy to see the pre-requisites (courses you need before the current one), but it's very difficult to see what the "post-requisites" (courses that the course you are looking at is a pre-requisite to) are. We combed through CMU's course schedule to get a list of the prereqs, and mapped them properly to the postreqs. We used d3.js to make the pretty visualization of the tree hierarchy of classes.</p>
 
-          <img src="../../assets/coursereqr_image.png"></img>
+          <img src="../../assets/coursereqr_image.png" alt="Screenshot of our final project"></img>
           <p>Screenshot of our final project. The orange bubble is the currently selected class. The blue bubbles indicate what you can take after you have taken the selected class, or post-requisites as we called them. The orange bubbles indicate the pre-requisites for the selected class.</p>
         </div>
     );

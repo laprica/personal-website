@@ -1,7 +1,7 @@
 import React from 'react';
 import {ProjectDisplay} from './ProjectDisplay.js'
 import data from "../assets/projects.json";
-import {withRouter} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 export class ProjectListDisplay extends React.Component {
 
@@ -14,7 +14,9 @@ export class ProjectListDisplay extends React.Component {
             {
                 data.Projects.map((project, i) => {
                     return (
-                        <div className="column" key={'project_'+i}><ProjectDisplay cb={(e)=>{this.sendData(e)}} title={project.title} desc={project.description} img={project.picture} url={project.url} /></div>
+                        <Link to={project.url} key={'project_'+i}>
+                            <div className="column"><ProjectDisplay cb={(e)=>{this.sendData(e)}} title={project.title} desc={project.description} img={project.picture} url={project.url} /></div>
+                        </Link>
                     );
                 })
             }

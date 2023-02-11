@@ -1,6 +1,4 @@
 import React from 'react';
-import {ProjectDisplay} from './ProjectDisplay.js'
-import data from "../assets/projects.json";
 
 export class BigCardDisplay extends React.Component {
   render(){
