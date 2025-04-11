@@ -74,6 +74,73 @@
             "description": "I worked a year at IBM Research in Yorktown Heights. All opinions are my own.",
             "picture": "/assets/ibm-pic.png",
             "url": "/IBM"
+        },
+        {
+            "title": "Outward Inc Firmware Engineer",
+            "description": "I worked a year as a firmware engineer making a furniture picture-taking robot",
+            "picture": "/assets/insideRig.jpg",
+            "url": "/Outward"
+        },
+        {
+            "title": "Rondo Energy Contractor",
+            "description": "I worked a few months on PCBs and firmware ramping up heat wire production.",
+            "picture": "/assets/rondoBrick2.png",
+            "url": "/Rondo"
+        }
+        ,
+        {
+            "title": "DanceSaber Spotipy",
+            "description": "Python script to help label dance-y BeatSaber song playlists",
+            "picture": "/assets/dancesaber.png",
+            "url": "/DanceSaber"
+        },
+        {
+            "title": "Laundry Detector",
+            "description": "ESP32+microphone connected to web services to let us know when to move laundry.",
+            "picture": "/assets/laundryDetector1.jpg",
+            "url": "/LaundryDetector"
+        },
+        {
+            "title": "Glowing Invitation",
+            "description": "Glowing wedding invitation printed circuit board.",
+            "picture": "/assets/glowingInvite.png",
+            "url": "/GlowingInvitation"
+        },
+        {
+            "title": "RFID Seating Chart",
+            "description": "Interactive RFID Floor Map Seating Chart",
+            "picture": "/assets/seatingChart.png",
+            "url": "/SeatingChart"
+        },
+        {
+            "title": "Golden Gate EL Wire Shirt",
+            "description": "Solid and marching EL wire sewn into a shirt in the shape of the Golden Gate Bridge.",
+            "picture": "/assets/elShirt.jpg",
+            "url": "/ELShirt"
+        },
+        {
+            "title": "Fire Force WiFi Jacket",
+            "description": "Fire Force Cosplay with RPi Wi-Fi server to be able to control the color and animations of lights.",
+            "picture": "/assets/fireForceJacket1.jpg",
+            "url": "/FireForceJacket"
+        },
+        {
+            "title": "Scissor Tracker",
+            "description": "Pair of ESP32 bluetooth devices to warn a friend when their kitchen scissors are out of the kitchen.",
+            "picture": "/assets/scissorTracker.png",
+            "url": "/ScissorTracker"
+        },
+        {
+            "title": "Glowing Frames",
+            "description": "Fun animated glowing frames with pictures of logos",
+            "picture": "/assets/framesOpenSauce.jpg",
+            "url": "/GlowFrames"
+        },
+        {
+            "title": "MRI Motion Tracker",
+            "description": "Wireless system to capture motion of patient inside MRI Machine",
+            "picture": "/assets/mriSystem.png",
+            "url": "/MRIMotionTracker"
         }
     ]
 }

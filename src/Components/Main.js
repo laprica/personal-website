@@ -17,7 +17,18 @@ import { WhatIsSound } from './Projects/WhatIsSound';
 import { Website } from './Projects/Website';
 import { MEMS } from './Projects/MEMS';
 import { IBM } from './Projects/IBM';
+import { Outward } from './Projects/Outward';
+import { Rondo } from './Projects/Rondo';
+import { DanceSaber } from './Projects/DanceSaber';
 import { BrokenLink } from './BrokenLink';
+import { LaundryDetector } from './Projects/LaundryDetector';
+import { GlowingInvitation } from './Projects/GlowingInvitation';
+import { SeatingChart } from './Projects/SeatingChart';
+import { ELShirt } from './Projects/ELShirt';
+import { FireForceJacket } from './Projects/FireForceJacket';
+import { ScissorTracker } from './Projects/ScissorTracker';
+import { GlowFrames } from './Projects/GlowFrames';
+import { MRIMotionTracker } from './Projects/MRIMotionTracker';
 
 // const location = useParams();
 // let leftButtonName = 'About';
@@ -71,6 +82,17 @@ export class Main extends React.Component {
                                 <Route exact path="/theremin"> <Theremin /> </Route>
                                 <Route exact path="/website"> <Website /> </Route>
                                 <Route exact path="/whatissound"> <WhatIsSound /> </Route>
+                                <Route exact path="/Rondo"> <Rondo /> </Route>
+                                <Route exact path="/Outward"> <Outward /> </Route>
+                                <Route exact path="/DanceSaber"> <DanceSaber /> </Route>
+                                <Route exact path="/LaundryDetector"> <LaundryDetector /> </Route>
+                                <Route exact path="/GlowingInvitation"> <GlowingInvitation /> </Route>
+                                <Route exact path="/SeatingChart"> <SeatingChart /> </Route>
+                                <Route exact path="/ELShirt"> <ELShirt /> </Route>
+                                <Route exact path="/FireForceJacket"> <FireForceJacket /> </Route>
+                                <Route exact path="/ScissorTracker"> <ScissorTracker /> </Route>
+                                <Route exact path="/GlowFrames"> <GlowFrames /> </Route>
+                                <Route exact path="/MRIMotionTracker"> <MRIMotionTracker /> </Route>
                                 <Route exact path="/about"> <About /> </Route>
                                 <Route exact path="/projects">
                                     <ProjectListDisplay />

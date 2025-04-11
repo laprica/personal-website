@@ -9,19 +9,16 @@ export class About extends React.Component {
             <img className="about-picture" src="../assets/profilePic.jpg" alt="Leanna in front of Ithaca Falls"/>
           </div>
           <div className="card-right-about">
-          Leanna is currently looking for a new job opportunity.
+          Leanna is currently looking for a new job opportunity. You can <a href="../assets/LeannaPancoast_2024.pdf">download her resume</a> (last updated 10 April 2025).
 
-          Her previous work experience includes working at IBM Research in Yorktown Heights, NY advancing healthcare devices. Papers and patent pending.
+          <p>Enjoy looking on this site for more information on projects on the resume, as well as those that didn't make it to the resume.</p>
 
-          Most projects showcased on this site come from her side projects done at Carnegie Mellon University (CMU) and Cornell University.
-          She graduated with a Bachelor of Science from Carnegie Mellon University in Electrical and Computer Engineering with a Biomedical Engineering minor. She continued academia at Cornell University with a Master's of Science from Cornell University working under Amit Lal on MEMS devices.
+          <p>She comes from Houston, TX, from which she misses the delicious BBQ and Whataburger.</p>
 
-          She comes from Houston, TX, from which she misses the delicious BBQ and Whataburger.
-          ​
-          She explores hobby electronics with an Arduino and a plethora of LEDs as well as different aspects of the ancient Japanese art, origami.
-          Leanna loves to find unique solutions with her diverse background.
+          <p>She explores hobby electronics with an Arduino and a plethora of LEDs as well as different aspects of the ancient Japanese art, origami.
+          Leanna loves to find unique solutions with her diverse background.</p>
 
-          Outside of research and tinkering, Leanna can be found dancing with the local swing, salsa, or ballroom community.
+          <p>Outside of research and tinkering, Leanna can be found dancing with the local swing, salsa, or ballroom community.</p>
 
           </div>
          
